@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "test": "webpack && mocha build/js/test.js"
+    "test": "mocha test/romanNumerals/romanNumerals.spec.js"
   },
   "author": "",
   "license": "ISC",
