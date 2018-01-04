@@ -1,0 +1,17 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "webpack && mocha build/js/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "webpack": "^3.10.0"
+  }
+}
